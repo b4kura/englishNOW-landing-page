@@ -4,6 +4,7 @@
   margin-left: 5vw;
   min-width: 600px;
   padding: 1em;
+  user-select: none;
   width: 45vw;
 }
 
