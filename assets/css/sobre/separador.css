@@ -1,0 +1,13 @@
+.separador {
+  background-color: var(--branco);
+  height: 9em;
+  left: -1em;
+  position: absolute;
+  width: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .separador {
+    display: none;
+  }
+}

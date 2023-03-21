@@ -1,0 +1,21 @@
+.sobre > .botao-qsf {
+  background-color: var(--branco);
+  color: var(--roxo);
+  margin-right: 5vw;
+}
+
+.sobre > .botao-qsf:hover {
+  background-color: var(--roxo);
+  color: var(--branco);
+  cursor: pointer;
+  transition: all ease-in-out .5s;
+}
+
+@media screen and (max-width: 768px) {
+  .sobre > .botao-qsf {
+    margin: 0 auto;
+  }
+  .sobre > .botao-qsf > p {
+    font-size: 1.5rem;
+  }
+}

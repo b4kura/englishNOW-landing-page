@@ -1,0 +1,18 @@
+.preco-antigo {
+  position: relative;
+}
+
+.valor-antigo {
+  color: var(--branco);
+  font-weight: bold;
+}
+
+.risco {
+  background-color: var(--roxo);
+  height: 4rem;
+  width: .5rem;
+  position: absolute;
+  transform: rotate(70deg);
+  top: -1rem;
+  left: 1rem;
+}

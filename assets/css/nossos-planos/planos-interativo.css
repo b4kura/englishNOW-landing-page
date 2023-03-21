@@ -1,0 +1,21 @@
+.planos-interativo {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.planos-interativo h3 {
+  color: var(--branco);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+  .planos-interativo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

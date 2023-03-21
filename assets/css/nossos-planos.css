@@ -1,0 +1,17 @@
+@import url(./nossos-planos/planos-container.css);
+@import url('./nossos-planos/subtitulo.css');
+@import url('./nossos-planos/botao-qsf.css');
+@import url('./nossos-planos/planos-interativo.css');
+@import url('./nossos-planos/opcoes-planos.css');
+@import url('./nossos-planos/preco-antigo.css');
+@import url('./nossos-planos/preco.css');
+@import url('./nossos-planos/preco-atual.css');
+
+.nossos-planos {
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.9)), url('./../images/bgs/nossos-planos.png');
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+}

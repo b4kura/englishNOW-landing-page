@@ -1,0 +1,73 @@
+.tutor {
+  background-color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  transition: all ease-out .2s;
+  width: 15em;
+}
+
+.tutor:hover {
+  scale: 1.5;
+  transition: all ease-in-out .5s;
+}
+
+.tutor .nome {
+  font-weight: bold;
+}
+
+.tutor p:not(:first-child) {
+  font-size: .6em;
+}
+
+.tutor p:first-child {
+  margin-top: 1rem;
+}
+
+.tutor p:last-child {
+  margin-bottom: 1rem;
+}
+
+.tutor p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.tutor .sobre-tutor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.tutor .imagem {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15em;
+  width: 15em;
+}
+
+.tutor--ellie .imagem {
+  background: url('./../../images/tutores/ellie.png') center;
+}
+
+.tutor--patricia .imagem {
+  background: url('./../../images/tutores/patricia.png') center;
+}
+
+.tutor--fabricio .imagem {
+  background: url('./../../images/tutores/fabricio.png') center;
+}
+
+em {
+  font-style: italic;
+}
+
+@media screen and (max-width:800px) {
+  .tutor p {
+    text-align: center;
+  }
+  .tutor .imagem {
+    display: none;
+  }
+}

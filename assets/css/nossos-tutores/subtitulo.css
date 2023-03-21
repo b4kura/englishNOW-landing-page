@@ -1,0 +1,12 @@
+.subtitulo {
+  color: var(--branco);
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .subtitulo {
+    font-size: 2rem;
+  }
+}

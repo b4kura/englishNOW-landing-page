@@ -1,0 +1,13 @@
+@import url('./nossos-tutores/subtitulo.css');
+@import url('./nossos-tutores/tutores.css');
+@import url('./nossos-tutores/tutor.css');
+
+.nossos-tutores {
+  align-items: center;
+  background: linear-gradient(to top, rgba(0,0,0,1), var(--roxo-escuro));
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  height: 100vh;
+  justify-content: center;
+}

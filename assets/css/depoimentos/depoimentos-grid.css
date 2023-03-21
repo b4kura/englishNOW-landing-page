@@ -1,0 +1,17 @@
+.depoimentos-grid {
+  column-gap: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 6rem;
+  max-width: 1000px;
+}
+
+@media screen and (max-width:903px) {
+  .depoimentos-grid {
+    gap: 1rem;
+  }
+  .depoimentos-grid .depoimento-container:last-child {
+    display: none;
+  }
+}

@@ -1,0 +1,6 @@
+.planos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}

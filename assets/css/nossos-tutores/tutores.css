@@ -1,0 +1,12 @@
+.tutores {
+  align-items: center;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+
+@media screen and (max-width:800px) {
+  .tutores {
+    flex-direction: column;
+  }
+}

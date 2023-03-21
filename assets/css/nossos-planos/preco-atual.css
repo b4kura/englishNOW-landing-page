@@ -1,0 +1,30 @@
+.preco-atual {
+  position: relative;
+}
+
+.preco-atual p {
+  color: var(--branco);
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.preco-atual .centavos {
+  position: absolute;
+  top: 1rem;
+}
+
+.preco-atual .centavos, .preco-atual .mes {
+  font-size: 1rem;
+}
+
+.preco-atual .mes {
+  position: absolute;
+  right: .7rem;
+  bottom: 1rem;
+}
+
+@media screen and (max-width:768px) {
+  .preco-atual .mes {
+    right: -2.5rem;
+  }
+}

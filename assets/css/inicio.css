@@ -1,0 +1,15 @@
+@import url('./inicio/texto.css');
+@import url('./inicio/botao.css');
+
+.inicio {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('./../images/bgs/inicio.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100vh;
+  justify-content: center;
+}

@@ -1,0 +1,10 @@
+.nossos-planos .botao-qsf {
+  color: var(--branco);
+  margin: 0 auto;
+  transition: all .5s;
+}
+
+.nossos-planos .botao-qsf:hover {
+  color: var(--roxo);
+  transition: all .5s;
+}

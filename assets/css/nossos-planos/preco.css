@@ -1,0 +1,9 @@
+.preco {
+  margin-left: 7rem;
+}
+
+@media screen and (max-width:768px) {
+  .preco {
+    margin: 0;
+  }
+}

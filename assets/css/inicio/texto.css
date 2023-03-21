@@ -1,0 +1,19 @@
+.texto {
+  display: block;
+  font-size: 3em;
+  margin-left: 5vw;
+  width: 60vw;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .texto {
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+    width: 80vw;
+  }
+}

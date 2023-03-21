@@ -1,0 +1,16 @@
+.depoimento-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.estrelas {
+  width: auto;
+  background: url('./../../images/five\ stars.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.depoimento-header p {
+  font-weight: bold;
+}

@@ -1,0 +1,12 @@
+.depoimento-container {
+  border: 4px solid var(--branco);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  width: 23em;
+}
+
+.depoimento-container p {
+  color: var(--branco);
+}

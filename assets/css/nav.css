@@ -1,0 +1,32 @@
+.menu-bar {
+  align-items: center;
+  background-color: var(--branco);
+  display: flex;
+  justify-content: space-between;
+  padding: .5em 1.5em;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  transition: all .5s;
+}
+
+.menu {
+  color: var(--preto);
+  display: flex;
+  gap: 1.5em;
+}
+
+.menu-translucido {
+  background-color: rgba(255,255,255,.6);
+  backdrop-filter: blur(5px);
+  transition: all .5s;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-bar {
+    flex-direction: column;
+  }
+  .menu {
+    display: none;
+  }
+}

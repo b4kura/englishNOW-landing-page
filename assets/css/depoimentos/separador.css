@@ -1,0 +1,12 @@
+.depoimentos .separador {
+  width: .4rem;
+  height: 16rem;
+  position: absolute;
+  left: calc(50vw - .2rem);
+}
+
+@media screen and (max-width:903px) {
+  .depoimentos .separador {
+    display: none;
+  }
+}

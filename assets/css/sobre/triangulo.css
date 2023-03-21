@@ -1,0 +1,17 @@
+.triangulo-separador {
+  background: url('./../../images/triangulo-separador.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  height: 50px;
+  left: calc(50vw - 50px);
+  position: absolute;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .triangulo-separador {
+    display: none;
+  }
+}

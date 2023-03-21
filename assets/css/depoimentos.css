@@ -1,0 +1,24 @@
+@import url('./depoimentos/depoimentos-grid.css');
+@import url('./depoimentos/depoimento-container.css');
+@import url('./depoimentos/depoimento-header.css');
+@import url('./depoimentos/separador.css');
+
+.depoimentos {
+  align-items: center;
+  background: linear-gradient(to bottom, var(--roxo), rgba(0,0,0,.9)), url('./../images/bgs/depoimentos.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .depoimentos {
+    gap: 2rem;
+  }
+}

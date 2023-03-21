@@ -1,0 +1,37 @@
+.opcoes-planos {
+  display: flex;
+  flex-direction: column;
+}
+
+.opcao {
+  border: 5px solid var(--branco);
+  color: var(--branco);
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem 2.5rem;
+  text-align: center;
+  transition: all ease-out .1s;
+}
+
+.opcao:hover {
+  cursor: pointer;
+}
+
+.opcao:not(.opcao-escolhida):hover {
+  background-color: rgba(255,255,255,.5);
+  transition: all ease-in .1s;
+}
+
+.opcao:not(:first-child) {
+  position: relative;
+  top: -5px;
+}
+
+.opcao:last-child {
+  top: -10px;
+}
+
+.opcao-escolhida {
+  background-color: var(--branco);
+  color: var(--roxo);
+}
